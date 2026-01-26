@@ -1,0 +1,110 @@
+/*导航栏*/
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width: 100vm;
+    background-color: white;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.top_right{
+    width: 100%;
+    height:70px;
+    background-color: #2D9BA8;
+    box-shadow:0 0 100px rgba(16, 109, 107, 0.3);
+}
+
+.top_right .top_right2{
+    width: 1200px;
+    height:100%;
+    margin: 0 auto;
+}
+
+.top_right .top_right2 ul{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height:100%;
+}
+
+.top_right .top_right2 ul > li{
+    width: 100%;
+    height: 100%;
+}
+
+.top_right .top_right2 ul>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 70px;
+    text-align: center;
+    box-shadow:1 1 3px rgba(16, 109, 107, 0.3);
+}
+.top_right .top_right2 ul>li ol{
+    width: 100%;
+    background-color: #20929f;
+    box-shadow:1 1 3px rgba(16, 109, 107, 0.3);
+    transform: scaleY(0);
+    transform-origin:50% 0;
+    transition: all 0.6s;
+}
+.top_right .top_right2 ul > li ol li a{
+    display: block;
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+}
+.top_right .top_right2 ul>li ol li:hover{
+    background-color: #6abbc4;
+}
+.top_right .top_right2 ul>li:hover ol{
+    transform: scaleY(1);
+}
+/*设置线条*/
+.top_right .top_right2 ul .underline{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:240px;
+    height:6px;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    background-color: white;
+    transition: all 0.6s;
+    pointer-events: none;
+}
+.top_right .top_right2 ul .underline:before{
+    content:"";
+    position: absolute;
+    top:-10px;
+    left: calc(50% - 9px);
+    width: 18px;
+    height: 10px;
+    background-color: inherit;/*继承父元素属性值*/
+    clip-path:polygon(0 100%,50% 0,100% 100%);
+}
+.top_right .top_right2 ul >li:nth-child(2):hover~.underline{
+    left:240px;
+    background-color: #ff9933;
+}
+.top_right .top_right2 ul >li:nth-child(3):hover~.underline{
+    left:480px;
+    background-color: white;
+}
+.top_right .top_right2 ul >li:nth-child(4):hover~.underline{
+    left:720px;
+    background-color: #ff9933;
+}
+.top_right .top_right2 ul >li:nth-child(5):hover~.underline{
+    left:960px;
+    background-color:white;
+}
+/*导航栏*/
