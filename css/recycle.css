@@ -1,0 +1,178 @@
+.top{
+  width: 100%;
+  background-color: #2D9BA8;
+}
+#top{
+  width: 980px;
+  margin: auto;
+  height: 80px;
+}
+.top_left{
+  padding-top: 10px;
+  float: left;
+  height: 60px;
+  position: relative;
+}
+
+.banner img{
+  height:500px;
+  width: 100%;
+}
+h2{
+  position: absolute;
+  top: 40%;
+  left:20%;
+  width: 500px;
+  height: 300px;
+  font-size: 3.5vw;
+  letter-spacing: 5px;
+  color:white;
+  text-shadow: 2px 2px 4px  #2D9BA8;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.banner img{
+  height:100%;
+  width: 100%;
+}
+.nav{
+  /* width: 980px; */
+  margin: auto;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.nav1{
+  overflow: hidden;
+  width: 100%;
+}
+
+
+h3{
+  font-size: 2vw;
+  color:#2D9BA8;
+  display: block;
+  line-height: 70px;
+  margin-left: 10%;
+}
+h5{
+  font-size: 2vw;
+  color:#2D9BA8;
+  display: block;
+  line-height: 70px;
+  margin-top: 10%;
+}
+.nav1_bottom_left2{
+  float: left;
+  overflow: hidden;
+  width: 550px;
+  height: 395px;
+  overflow: hidden;
+  color:#144264;
+  font-size: 10vr;
+  margin-left: 10%;
+}
+.nav1_bottom_left2 p{
+  line-height: 2em;
+  text-indent: 2em;
+}
+.nav1_bottom_left2 p:hover{
+  color: red;
+}
+.nav1_gray img{
+  position:relative;
+  width: 30%;
+  margin-top: -6%;
+  margin-left: 10%;
+}
+.nav1_gray{
+  background-color: #ECECEC;
+  margin-top: 300px;
+}
+.nav1_gray p{
+  line-height: 2em;
+  width: 50%;
+  float: right;
+  margin-top: 10%;
+}
+.middle2{
+  margin-left: 20%;
+  padding-bottom: 10%;
+  margin-top: -10%;
+}
+h4{
+  position: relative;
+  right:80px;
+  font-size: 2vw;
+  color:#2D9BA8;
+  display: block;
+  line-height: 70px;
+  left: 40%;
+}
+.nav3_top{
+  width: 80%;
+  margin-left: 12%;
+}
+.nav2{
+  float:center;
+  margin-top: 100px;
+}
+
+.nav2_center{
+  position: relative;
+  color:#144264;
+  font-size: 4vr;
+}
+.nav2_center p{
+  line-height: 1.5em;
+  text-indent: 2em;
+  width: 60%;
+  padding-left:20%;
+  text-align: center;
+}
+.nav2_center p:hover{
+  color: red;
+}
+
+.desinger{
+  background-color:#2D9BA8 ;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.desinger{
+  background-color:#2D9BA8 ;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-weight: block;
+}
+
+h1{
+  color: white;
+  position: absolute;
+  margin-top: 3%;
+  left:50%;
+  font-size: 2vw;
+  display: block;
+  line-height: 70px; 
+}
+h9{
+  color: white;
+  width: 50%;
+  font-size: 20px;
+}
+.nav2 img{
+  width: 100%;
+
+
+}
+.forest3 img{
+  width: 50%;
+ margin-left: 25%;
+}
+.ds{
+  text-align: center;
+}
+.ds img{
+  width: 70%;
+}
