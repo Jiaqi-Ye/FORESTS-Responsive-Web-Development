@@ -8,5 +8,3 @@ FORESTS is a responsive static web platform promoting forest conservation, featu
 
 You can visit the website with this link: (https://Jiaqi-Ye.github.io/FORESTS-Responsive-Web-Development/
 ) 
-
-
